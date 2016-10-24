@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="bt_padding">10dp</dimen>
+    <dimen name="wheel_padding">60dp</dimen>
+    <dimen name="pick_high">150dp</dimen>
+    
+
+</resources>

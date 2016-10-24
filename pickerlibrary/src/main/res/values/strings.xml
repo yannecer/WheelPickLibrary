@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PickLibrary</string>
+    
+    <string name="positive_text">确定</string>
+    <string name="negative_text">取消</string>
+    <string name="divide_text">-</string>
+
+</resources>
