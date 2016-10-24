@@ -44,7 +44,7 @@ public abstract class BasePicker implements View.OnClickListener {
     protected void initPop() {
         dialog = new PickerDialog(mContext);
         dialog.setCanceledOnTouchOutside(true);//触摸屏幕取消窗体
-        dialog.setCancelable(true);//按返回键取消窗体
+        dialog.setCancelable(true);
         dialog.setContentView(pickView);
     }
 

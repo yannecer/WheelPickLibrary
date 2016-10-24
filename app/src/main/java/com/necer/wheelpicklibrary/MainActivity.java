@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
             public void onSelect(String year, String month, String day) {
                 String s = year + "-" + month + "-" + day;
                 tv_.setText(s);
-
             }
         });
         datePicker.show();
