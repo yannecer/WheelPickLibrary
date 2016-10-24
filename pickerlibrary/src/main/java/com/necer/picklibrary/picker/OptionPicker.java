@@ -40,8 +40,6 @@ public class OptionPicker extends BasePicker {
     }
 
 
-
-
     @Override
     protected View initPickView() {
         View view = View.inflate(mContext, R.layout.pop_picker_option, null);
