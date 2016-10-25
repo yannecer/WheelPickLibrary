@@ -3,7 +3,7 @@
 ##截图：
 ![截图](https://github.com/yannecer/WheelPickLibrary/blob/master/app/gif/screen.gif)
 
-##DatePicker用法
+####DatePicker使用
 
  ```
         DatePicker datePicker = new DatePicker(this);
@@ -20,7 +20,7 @@
         });
         datePicker.show();
  ```
-##OptionPicker用法
+####OptionPicker使用
 ```
         OptionPicker optionPicker = new OptionPicker(this, new String[]{"aaa", "bbb", "ccc", "ddd"});
         optionPicker.setCycle(true);
@@ -32,4 +32,4 @@
         }).show();
 
 ```
-感谢[AndroidPicker](https://github.com/gzu-liyujiang/AndroidPicker) ，修改了这个项目中滑动不能循环的问题
+###感谢[AndroidPicker](https://github.com/gzu-liyujiang/AndroidPicker) ，修改了这个项目中滑动不能循环的问题
