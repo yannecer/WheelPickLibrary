@@ -3,10 +3,10 @@
 ##截图：
 ![截图](https://github.com/yannecer/WheelPickLibrary/blob/master/app/gif/screen.gif)
 
-##用法
+##DatePicker用法
 
  ```
- DatePicker datePicker = new DatePicker(this);
+        DatePicker datePicker = new DatePicker(this);
         datePicker.setNegativeText("取消");
         datePicker.setPositiveText("确定");
         datePicker.setYearInterval(1945, 2050);//设置年份间隔
@@ -20,5 +20,16 @@
         });
         datePicker.show();
  ```
+##OptionPicker用法
+```
+        OptionPicker optionPicker = new OptionPicker(this, new String[]{"aaa", "bbb", "ccc", "ddd"});
+        optionPicker.setCycle(true);
+        optionPicker.setOnOptionSelectListener(new OptionPicker.OnOptionSelectListener() {
+            @Override
+            public void onSelect(String option, int index) {
+                tv_.setText(option + "----" + index);
+            }
+        }).show();
 
+```
 
