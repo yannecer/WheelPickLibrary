@@ -8,7 +8,7 @@ import com.necer.picklibrary.R;
 import com.necer.picklibrary.dialog.PickerDialog;
 
 /**
- * Created by zhuodao on 2016/9/12.
+ * Created by necer on 2016/9/12.
  */
 public abstract class BasePicker implements View.OnClickListener {
 

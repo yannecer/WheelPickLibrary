@@ -10,7 +10,7 @@ import com.necer.picklibrary.widget.adapters.OnWheelSelectListener;
 
 
 /**
- * Created by zhuodao on 2016/9/12.
+ * Created by necer on 2016/9/12.
  */
 public class OptionPicker extends BasePicker {
 
@@ -48,7 +48,6 @@ public class OptionPicker extends BasePicker {
 
     @Override
     protected void onSure() {
-
         if (mOptionSelectListener != null) {
             mOptionSelectListener.onSelect(items[index],index);
         }
@@ -64,8 +63,6 @@ public class OptionPicker extends BasePicker {
         this.items = items;
         option.setViewAdapter(new ArrayWheelAdapter<>(mContext,items));
     }
-
-
 
     public interface OnOptionSelectListener {
         /**

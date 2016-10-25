@@ -14,7 +14,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 /**
- * Created by zhuodao on 2016/10/24.
+ * Created by necer on 2016/10/24.
  */
 
 public class DatePicker extends BasePicker implements OnWheelSelectListener {
