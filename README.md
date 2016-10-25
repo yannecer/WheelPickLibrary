@@ -5,7 +5,7 @@
 
 ##用法
 
- `DatePicker datePicker = new DatePicker(this);
+ ```DatePicker datePicker = new DatePicker(this);
         datePicker.setNegativeText("取消");
         datePicker.setPositiveText("确定");
         datePicker.setYearInterval(1945, 2050);//设置年份间隔
@@ -17,6 +17,6 @@
                 tv_.setText(s);
             }
         });
-        datePicker.show();`
+        datePicker.show();```
 
 
