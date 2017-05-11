@@ -32,4 +32,4 @@
         }).show();
 
 ```
-### 感谢[AndroidPicker](https://github.com/gzu-liyujiang/AndroidPicker) ，修改了这个项目中滑动不能循环的问题
+### 感谢[AndroidPicker](https://github.com/gzu-liyujiang/AndroidPicker) 
